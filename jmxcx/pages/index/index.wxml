@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+    <view>
+      <swiper indicator-dots='true' autoplay='3000'>
+        <swiper-item wx:for='{{imglist}}' wx:key='index'>
+            <image mode='aspectFill' src='{{item.img_url}}'></image>
+        </swiper-item>
+      </swiper>
+    </view>
+</view>
