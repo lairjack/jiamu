@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: rgb(141,144,149);
+    font-family: 微软雅黑, Arial, Helvetica,Verdana,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    background: #ffffff none no-repeat fixed center top;
+    background-size: cover;
+    display: block;
+}
+header-inner{
+    margin: 0 auto;
+    font-size: 20px;
+}
